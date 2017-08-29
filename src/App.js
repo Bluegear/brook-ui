@@ -22,18 +22,21 @@ class App extends Component {
               </h1>
               <form>
                 <div className="field">
-                  <label className="label">Email</label>
                   <div className="control has-icons-left has-icons-right">
-                    <input className="input" type="email" placeholder="Email input"/>
+                    <input className="input" type="email" placeholder="Email"/>
                     <span className="icon is-small is-left">
                       <i className="fa fa-envelope"></i>
                     </span>
                   </div>
                 </div>
                 <div className="field">
-                  <label className="label">Password</label>
                   <div className="control">
                     <input className="input" type="password" placeholder="Password"/>
+                  </div>
+                </div>
+                <div className="field">
+                  <div className="control">
+                    <input className="input" type="password" placeholder="Repeat Password"/>
                   </div>
                 </div>
                 <div className="field">
